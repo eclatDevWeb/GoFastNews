@@ -28,10 +28,12 @@ body {
     width: 100%;
     top: 0;
     padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
 }
 #nav_mobile img{
     display: inline-block;
-    margin: 5px 100px 0 15px;
+    margin: 4px 100px 0 15px;
 }
 footer{
     background-color: var(--bk-color-div-sep);
@@ -52,13 +54,13 @@ h4 {
     font-size: 1.5em;
     padding: 20px;
 }
-nav div{
+#nav_mobile div{
     display: inline-block;
     vertical-align:top;
     margin: 5px 0 0 15px;
     
 }
-nav a{
+#nav_mobile a{
     text-decoration: none;
     color:black;
     font-family: 'Courgette', 'sans-serif' ;
@@ -67,7 +69,7 @@ nav a{
     margin-right: 20px;
     border-radius: 20px;
 }
-nav a:hover{
+#nav_mobile a:hover{
     background-color: var(--bk-cont2);
 }
 p {
