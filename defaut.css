@@ -24,7 +24,8 @@ body {
 header {
     background-color: var(--bk-color-div-sep);
     border-bottom: 1px solid black;
-    position: sticky;
+    position: fixed;
+    width: 100%;
     top: 0;
 }
 header img{
@@ -37,6 +38,9 @@ footer{
     font-weight: bold;
     font-size: 30px;
     border-top: 1px solid black;
+}
+h1 {
+    margin-top: 6.5rem;
 }
 h2{
     margin: 20px;
