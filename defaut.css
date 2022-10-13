@@ -21,14 +21,15 @@ body {
     margin: 0%;
     background-color: var(--bk-color-body);
 }
-header {
+#nav_mobile {
     background-color: var(--bk-color-div-sep);
     border-bottom: 1px solid black;
     position: fixed;
     width: 100%;
     top: 0;
+    padding: 1rem 0;
 }
-header img{
+#nav_mobile img{
     display: inline-block;
     margin: 5px 100px 0 15px;
 }
@@ -40,7 +41,8 @@ footer{
     border-top: 1px solid black;
 }
 h1 {
-    margin-top: 6.5rem;
+    margin: 6.5rem 0 2rem 0;
+    
 }
 h2{
     margin: 20px;
@@ -50,7 +52,7 @@ h4 {
     font-size: 1.5em;
     padding: 20px;
 }
-nav{
+nav div{
     display: inline-block;
     vertical-align:top;
     margin: 5px 0 0 15px;
@@ -135,6 +137,9 @@ em{
     
 
 }
+.tem2 {
+    margin-bottom: 1rem;
+}
 .tem2 img{
     border-radius: 0 30px 30px 0;
     flex-basis: 100px;
@@ -189,20 +194,21 @@ p{
         width: 80%;
         border-radius: 20px;
     }
-    header img{
+    #nav_mobile img{
         height:16px;
-        margin:0;
+        margin-top: 0.4rem;
     }
-    nav{
+    
+    #nav_mobile{
+        margin: 0;
+        padding: 0.5rem 0 0.9rem 12px;
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-around;
+        justify-content: center;
+        align-items: center;
+        
     }
-    #header_mobile{
-        padding: 5px 0 0 12px;
-    
-    }
-    nav a {
+    #nav_mobile a {
         font-size: 0.7em;
         padding: 7px;
         
@@ -211,6 +217,17 @@ p{
 }
 
 @media all and (max-width:600px) {
+    #nav_mobile {
+        padding: 0 0 0.5rem 0;
+        flex-direction: column;
+        
+        
+        
+              
+    }
+    #nav_mobile img {
+        margin:0;
+    }
     
    
     footer{
@@ -225,6 +242,6 @@ p{
     }
     .dispo p,
     .dispo img{
-        width: 80%;
+        width: 100%;
     }
 }
