@@ -270,15 +270,17 @@ p{
     border-radius: 10% 30px;
     align-self: flex-end;
     bottom:0;
-    animation: shuriken 1.5s ease 3s;
-    position: absolute;   
+    animation: shuriken 1.5s ease 3s forwards;
+    position: absolute;
+    opacity: 0;   
 }
 #shuriken {
     top: 80px;
     right: 10px;
     position: absolute;
     width: 50px;
-    animation: shuriken 1.5s ease 3s;
+    animation: shuriken 1.5s ease 3s forwards;
+    opacity: 0;
 }
 #flex-offers h6 {
     font-size: 1.5em;
