@@ -296,7 +296,7 @@ ul {
 @keyframes shuriken {
     0% {
         
-        margin-right:200px ; 
+        margin-right:2000px ; 
         opacity:0.1;
         transform: rotate(-3600deg);
     }
