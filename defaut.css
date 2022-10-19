@@ -240,6 +240,7 @@ p{
 #flex-offers {
     display: flex;
     gap: 1rem;
+    margin-bottom: 2rem;
      
     
 }
@@ -263,6 +264,8 @@ p{
     padding: 2% 4%;
     border-radius: 10% 30px;
     align-self: flex-end;
+    animation: shuriken 1.5s ease 3s;
+    
 }
 #flex-offers h6 {
     font-size: 1.5em;
@@ -281,6 +284,20 @@ ul {
 #flex-offers li {
     font-size: 0.8em;
     max-width: 90%;
+}
+@keyframes shuriken {
+    0% {
+        
+        margin-right:200px ; 
+        opacity:0.1;
+        transform: rotate(-3600deg);
+    }
+        
+    100% {
+        margin-right: 0;
+        opacity:1;
+        transform: rotate(0deg);
+    }
 }
 @media all and (max-width:1024px) {
     .tem1
