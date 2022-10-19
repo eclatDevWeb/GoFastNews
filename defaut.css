@@ -249,9 +249,14 @@ p{
     flex-direction: column;
     background-color: #204949;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
+    gap:1em;
+    
     color: #efefef;
     border-radius: 5rem 0.5rem;
+    padding-bottom: 2em;
+    position: relative;
+
     
     
     
@@ -264,7 +269,10 @@ p{
     padding: 2% 4%;
     border-radius: 10% 30px;
     align-self: flex-end;
+    bottom:0;
     animation: shuriken 1.5s ease 3s;
+    position: absolute;
+   
     
 }
 #flex-offers h6 {
